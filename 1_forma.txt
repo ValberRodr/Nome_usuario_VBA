@@ -1,0 +1,9 @@
+sub usuario()
+   Computador = Environ("Computername")
+   dominio = Environ("USERDOMAIN")
+   user = Environ("USERNAME")
+
+   msgbox "Computador: " & Computador
+   msgbox "Dominio: " & dominio
+   msgbox "Usuario: " & user
+end sub
