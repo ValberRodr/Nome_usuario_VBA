@@ -1,0 +1,6 @@
+sub UsuarioWindows()
+   Set ObjNetwork = CreateObject("WScript.Network")
+   GetUserN = ObjNetwork.UserName
+
+   msgbox "O usuário do windows é: " & GetUserN
+end sub
